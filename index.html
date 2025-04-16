@@ -3,10 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="styles\page.css" />
+    <title>Beranda</title>
   </head>
   <body>
-    <h1>User test</h1>
+    <!-- Ini navbar ngambil  -->
+    <nav class="navbar">
+      <img src="img\CampusMart.jpg" alt="Logo" />
+      <div class="nav-links">
+        <a href="index.html" class="active">BERANDA</a>
+        <a href="produk.html">PRODUK</a>
+        <a href="login.html">AKUN</a>
+        <a href="kontak.html">KONTAK</a>
+      </div>
+    </nav>
+    <!-- Akhir dari Navbar -->
+    <!-- Kita bikin conten disini -->
+    <section class="Hero" id="Beranda">
+      <div class="content">
+        <div class="container-tag">
+          <h1>
+            Selamat datang di <br />
+            Campus <span>Mart</span>
+          </h1>
+          <p>Barang Bekas, Manfaat Tak Terbatas!</p>
+          <a href="produk.html" class="btn-produk">Cari Produk</a>
+        </div>
+        <div class="container-img">
+          <img src="img\transaksi.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Fotter start -->
+
+    <!-- Fotter End -->
+    <!-- End  Section -->
+    <!-- Feather iconn ya  -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
